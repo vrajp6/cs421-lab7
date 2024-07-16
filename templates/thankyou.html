@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <div class="text-center mt-5">
+    <img src="https://knowledgepoint.com/wp-content/uploads/2018/05/iStock-845888110.200x200.jpg" alt="Thank you" class="mb-4">
+    <h1>Thanks for registering!</h1>
+    <p>You can now <a href="{{ url_for('login') }}">Sign In</a> to your account.</p>
+  </div>
+{% endblock %}
